@@ -1,0 +1,59 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Global Styles */
+* {
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box; /* Added to include padding and border in element's total width and height */
+}
+
+/* Body Styles */
+body {
+    background: #6c63ff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+/* Card Styles */
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: auto; /* Changed to 'auto' for dynamic height based on content */
+    width: 80%; /* Changed to percentage for responsiveness */
+    max-width: 600px; /* Added for limiting maximum width */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1em;
+    overflow: hidden;
+}
+
+/* Birthday Image Styles */
+img.birthday {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    margin-bottom: 1em;
+}
+
+/* Text Content Styles */
+.text {
+    color: #333;
+}
+
+.text p{ 
+    text-align: justify;
+}
+
+/* Muted Text Styles */
+.muted {
+    opacity: 0.8;
+}
+
+/* Spacing Element Styles */
+.space {
+    height: 1em; 
+}
