@@ -9,7 +9,7 @@
 
 /* Body Styles */
 body {
-    background: #6c63ff;
+    background: #84abff;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -57,3 +57,12 @@ img.birthday {
 .space {
     height: 1em; 
 }
+
+/* Birthday Video Styles */
+video.birthday-video {
+    width: 100%;
+    height: auto;
+    object-fit: fill; /* Tambahkan ini untuk memastikan video terlihat sepenuhnya */
+    margin-bottom: 1em;
+}
+
